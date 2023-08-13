@@ -264,7 +264,7 @@ header {
 
 .small-menu {
   float: right;
-  color: #99cc43;
+  color: #223D50;
   font-size: 32px;
   margin-top: 23px;
   margin-right: 12px; }
@@ -405,7 +405,7 @@ header {
     .key-features .key-row .box {
       flex-grow: 1;
       text-align: center;
-      padding: 60px 15px;
+      padding: 20px 15px;
       color: #FFF; }
       .key-features .key-row .box i {
         font-size: 32px;
