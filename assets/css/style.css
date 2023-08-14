@@ -399,9 +399,11 @@ header {
     width: 100%;
     display: flex;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
-    @media screen and (max-width: 486px) {
+    /* @media screen and (max-width: 486px) {
       .key-features .key-row {
-        display: block; } }
+        display: block;}
+             
+      } */
     .key-features .key-row .box {
       flex-grow: 1;
       text-align: center;
@@ -697,3 +699,14 @@ footer {
 
 /*# sourceMappingURL=style.css.map */
 
+
+    @media screen and (max-width: 486px) {
+      .hide-me {
+        display: none !important;
+        
+      }
+      .slider {
+        padding: 0 !important;
+      }
+             
+      }
